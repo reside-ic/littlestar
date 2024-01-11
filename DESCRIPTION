@@ -11,8 +11,8 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE, roclets = c("rd", "namespace", "porcelain::porcelain_roclet"))
 RoxygenNote: 7.2.3
-URL: https://github.com/mrc-ide/littlestar
-BugReports: https://github.com/mrc-ide/littlestar/issues
+URL: https://github.com/reside-ic/littlestar
+BugReports: https://github.com/reside-ic/littlestar/issues
 Imports:
     docopt,
     jsonlite,
