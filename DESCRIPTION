@@ -1,0 +1,28 @@
+Package: littlestar
+Title: Twinkle Twinkle Little Star
+Version: 0.1.0
+Authors@R: c(person("Rich", "FitzJohn", role = c("aut", "cre"),
+                    email = "rich.fitzjoh@gmail.com"),
+             person("Imperial College of Science, Technology and Medicine",
+                    role = "cph"))
+Description: Support for twinkle.  Provision libraries, clone and update
+    git sources, copy files.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE, roclets = c("rd", "namespace", "porcelain::porcelain_roclet"))
+RoxygenNote: 7.2.3
+URL: https://github.com/mrc-ide/littlestar
+BugReports: https://github.com/mrc-ide/littlestar/issues
+Imports:
+    docopt,
+    jsonlite,
+    lgr,
+    porcelain (>= 0.1.10)
+Suggests:
+    httr,
+    mockery,
+    testthat (>= 3.0.0),
+    withr
+Remotes:
+    reside-ic/porcelain
+Config/testthat/edition: 3
