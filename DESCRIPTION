@@ -15,9 +15,11 @@ URL: https://github.com/mrc-ide/littlestar
 BugReports: https://github.com/mrc-ide/littlestar/issues
 Imports:
     docopt,
+    gert,
     jsonlite,
     lgr,
-    porcelain (>= 0.1.10)
+    porcelain (>= 0.1.10),
+    rrq
 Suggests:
     httr,
     mockery,

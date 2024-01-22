@@ -11,3 +11,8 @@ scalar <- function(x) {
 package_version_string <- function(name) {
   as.character(utils::packageVersion(name))
 }
+
+
+to_json <- function(x, ...) {
+  jsonlite::toJSON(x, ..., POSIXt = "epoch", auto_unbox = FALSE)
+}
